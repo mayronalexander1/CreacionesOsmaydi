@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 215, 233);
+    margin: 10px;
+}
+
+h1 {
+    color: #d16ba5;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 50px
+
+}
+
+h2 {
+    color: #845ec2;
+    margin-top: 30px;
+}
+
+h3 {
+    color: whitesmoke;
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+.columna-productos {
+    background-color: blueviolet;
+    width: 80%;
+    height: 130px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid black;
+    flex: 1;
+}
+
+.columna-contacto {
+    background-color: #48e;
+    width: 80%;
+    height: 130px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid black;
+    flex: 1;
+}
+
+.boton-whatsapp {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.boton-whatsapp:hover {
+    background-color: rgb(5, 209, 86)
+}
+
+.boton-facebook {
+    display: inline-block;
+    background-color: #0022ff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.boton-facebook:hover {
+    background-color: #001075;
+}
+
+.boton-ubicacion {
+    display: inline-block;
+    background-color: #d71b1b;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.boton-ubicacion:hover {
+    background-color: rgb(244, 0, 0);
+}
+
+.boton-correo {
+    display: inline-block;
+    background-color: #ff5500;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.boton-correo:hover {
+    background-color: #d2700d;
+}
+
+.columnas {
+    display: flex;           /* los pone en horizontal */
+    gap: 20px;               /* espacio entre ellos */
+    margin: 20px;
+}

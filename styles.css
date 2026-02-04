@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
-    margin: 10px;
+    font-size: 'Arial';
+    background-color:  #fdecef;
+
 }
 
 h1 {
@@ -29,37 +29,133 @@ a {
 }
 
 p {
-    line-height: 1.6;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.seccion {
+    padding: 30px;
+}
+
+.cajas {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.caja {
+    display: inline-block;
+    width: 25%;
+    padding: 20px;
+    margin: 5px;
+    min-height: max-content;
+    background-color: white;
+    border-radius: 15px;
+    background: linear-gradient(#d196b7, white);
+}
+
+
+.caja h3 {
+    color: #e64a8b;
     font-size: xx-large;
 }
 
-
-.columna-productos {
-    background-color: blueviolet;
-    width: 80%;
-    height: 130px;
-    padding: 20px;
-    margin: 10px;
-    border: 5px solid black;
-    flex: 1;
+.caja p {
+    font-size: xx-large;
+    text-align: center;
 }
 
-.columna-contacto {
-    background-color: #48e;
-    width: 80%;
-    height: 130px;
+
+.columna-1 {
+    width: 90%;
+    height: 150px;
     padding: 20px;
     margin: 10px;
-    border: 5px solid black;
-    flex: 1;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    background-image: url("marmellowallpaper.jpg");
+    background-attachment: fixed;
+    margin-bottom: 40px;
+
 }
+
+.columna-4 {
+    width: 90%;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    background-image: url("marmellowallpaper.jpg");
+    background-attachment: fixed;
+    margin-bottom: 40px;
+
+}
+
+.columna-3 {
+    width: 90%;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(rgb(50, 158, 246), #5696fd);
+    margin-bottom: 40px;
+}
+
+.columna-2 {
+    width: 90%;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(rgb(50, 158, 246), #5696fd);
+    margin-bottom: 40px;
+}
+
 
 .columna-presentacion {
     background-color: #ff99cc;
     padding: 20px;
-    border-color: #ffaadd;
+    border-color: #170410;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.presentacion {
+    background-color: #ff9fc9;
+    padding: 20px;
+}
+
+.imagen-presentacion,.parrafo-presentacion {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagen-presentacion {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.parrafo-presentacion {
+    width: 40%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.parrafo-presentacion {
+    font-family: 'merienda', cursive;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #000;
+    margin-left: 10px
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.costos {
+    background-color: #ff9fc9;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Merienda', cursive;
+    height: max-content;
 }
 
 .boton-whatsapp {
@@ -122,8 +218,9 @@ p {
     background-color: #d2700d;
 }
 
-.columnas {
-    display: flex;           /* los pone en horizontal */
-    gap: 20px;               /* espacio entre ellos */
-    margin: 20px;
+
+img {
+    width: 512px;
+    height: auto;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }

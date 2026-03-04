@@ -1,0 +1,356 @@
+/* BASE GENERAL */
+
+a {
+    color: whitesmoke;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+img {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    height: auto;
+    width: 512px;
+}
+
+.menu {
+    background-color: #f46ea6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: xx-large;
+    margin-left: 30px;
+}
+
+/* TITULOS */
+
+h1 {
+    color: #f2edf0;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #d16ba5;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+/* BOTONES */
+
+.boton-correo {
+    background-color: #ff5500;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.boton-correo:hover {
+    background-color: #d2700d;
+}
+
+.boton-facebook {
+    background-color: #0022ff;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.boton-facebook:hover {
+    background-color: #001075;
+}
+
+.boton-form {
+    background-color: #ca0c6b;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.boton-ubicacion {
+    background-color: #d71b1b;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.boton-ubicacion:hover {
+    background-color: rgb(244, 0, 0);
+}
+
+.boton-whatsapp {
+    background-color: #25d366;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.boton-whatsapp:hover {
+    background-color: rgb(5, 209, 86);
+}
+
+/* CAJAS */
+
+.caja {
+    background: linear-gradient(#d196b7, white);
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px;
+    min-height: max-content;
+    padding: 20px;
+    width: 25%;
+}
+
+.caja h3 {
+    color: #e64a8b;
+    font-size: xx-large;
+}
+
+.caja p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.cajas {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/*Columnas.*/
+/**
+ * COlumnas para la pagina de inicio, seccion de presentacion y costos.
+ 
+ */
+
+.columna-1 {
+    background-attachment: fixed;
+    background-image: url("marmellowallpaper.jpg");
+}
+
+.columna-2 {
+    background: linear-gradient(rgb(50,158,246), #5696fd);
+}
+
+.columna-3 {
+    background: linear-gradient(rgb(50,158,246), #5696fd);
+}
+
+.columna-4 {
+    background-attachment: fixed;
+    background-image: url("marmellowallpaper.jpg");
+}
+
+.columna-1,
+.columna-2,
+.columna-3,
+.columna-4 {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    height: 150px;
+    margin: 10px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    width: 80%;
+}
+
+.columna-presentacion {
+    background-color: #ff99cc;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    width: 80%;
+}
+
+/* PRESENTACION */
+
+.imagen-presentacion {
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-top: 40px;
+    width: 40%;
+}
+
+.imagen-presentacion,
+.parrafo-presentacion {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.parrafo-presentacion {
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 40px;
+    padding: 20px;
+    width: 40%;
+}
+
+.presentacion {
+    background-color: #ff9fc9;
+    padding: 20px;
+}
+
+/* COSTOS / SECCIONES */
+
+.costos {
+    background-color: #ff9fc9;
+    font-family: 'Merienda', cursive;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.seccion {
+    padding: 30px;
+}
+
+/* =====================================
+   FORMULARIO
+===================================== */
+
+.btn-enviar {
+    background-color: #ffb3c6;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px;
+    width: 100%;
+}
+
+.btn-enviar:hover {
+    background-color: #ff8fab;
+}
+
+fieldset {
+    border: 2px solid #ffc6d9;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    width: 90%;
+}
+
+.formulario {
+    background-color: #fff0f5;
+    border-radius: 18px;
+    padding: 35px;
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.formulario-titulo {
+    text-align: center;
+    color: #ff7aa2;
+    font-size: 26px;
+}
+
+form {
+    background-color: #f8ac61;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    color: #222;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 100px;
+    margin-top: 20px;
+    max-width: 80%;
+    padding: 40px 0px;
+}
+
+input,
+select,
+textarea {
+    background-color: #fff7fa;
+    border: 1px solid #ffd6e0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 12px;
+    width: 100%;
+}
+
+label {
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+legend {
+    color: #ff8fab;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (min-width: 600px) {
+    .formulario {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 900px) {
+    .formulario {
+        max-width: 700px;
+    }
+}

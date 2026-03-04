@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url("postres-y-fondo-inconsútil-de-los-dulces-76854774.webp");
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.formulario {
+    background-color: #f48ff3;
+    border-radius: 18px;
+    padding: 35px;
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.08);
+}
+
+.formulario-titulo {
+    text-align: center;
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+fieldset {
+    border: 2px solid #ffc6d9;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #0a0809;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input,
+select,
+textarea {
+    background-color: #ffffff;
+    border: 1px solid #ffc6d9;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.btn-enviar {
+    border: none;
+    background-color: #ca0c6b;
+    color: white;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #ff0481;
+    box-shadow: #000000 0px 5px 45px rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+

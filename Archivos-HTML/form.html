@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-form.css">
+    <title>Document</title>
+</head>
+<body>
+       <div class="form-container">
+        <form class="formulario">
+
+            <p class="formulario-titulo">Formulario de contacto</p>
+
+            <fieldset>
+                <legend>Información básica</legend>
+                <div class="form_input">
+                    <label>Nombre completo</label>
+                    <input type="text" placeholder="Camila Pérez">
+                </div>
+                <div class="form_input">
+                    <label>Correo electrónico</label>
+                    <input type="email" placeholder="ejemplo@correo.com">
+                </div>
+                <div class="form_input">
+                    <label>Asunto</label>
+                    <input type="text" placeholder="Quiero más información...">
+                </div>
+            </fieldset>
+            <div class="form_input">
+                <label>Tipo de usuario</label>
+                <select>
+                    <option>Estudiante</option>
+                    <option>Proveedor</option>
+                    <option>Colaborador</option>
+                </select>
+            </div>
+            <div class="form_input">
+                <label>Mensaje</label>
+                <textarea placeholder="Escriba aquí..."></textarea>
+            </div>
+            <button class="btn-enviar">Enviar mensaje</button>
+        </form>
+    </div>
+</body>
+</html>

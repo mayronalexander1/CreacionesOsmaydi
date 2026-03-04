@@ -1,0 +1,256 @@
+div, body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p {
+    color: #555;
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Nuestras Instalaciones */
+
+
+.instalaciones {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+}
+
+.instalaciones-container {
+    display: flex; justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 20px;
+
+}
+
+/* Nav Menu */
+.logo {
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    color: white;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(202, 23, 65);
+    gap: 20px;
+    list-style: none;
+}
+
+
+h2 {
+    font-size: 45px;
+    color: rgb(202, 23, 65);
+    text-align: center;
+    margin: 60px 0 40px;
+}
+.flex-item {
+    background-color: rgb(202, 23, 65);
+    padding: 10px 4px;
+    color: rgb(248, 242, 234);
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+.flex-item:hover {
+    background-color: rgb(215, 78, 110);
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+.nav-link {
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    list-style: none;
+}
+
+/* ===== SECCIÓN CURSOS ===== */
+
+.boton-certificado {
+    background-color: rgb(202, 23, 65);
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+.cursos {
+    background-color: #f6e8ec;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 60px 8%;
+}
+
+.cursos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cursos-header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cursos-header h1 {
+    color: rgb(202, 23, 65);
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.cursos-header h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.cursos-imagen {
+    width: 200px;
+}
+
+.cursos-imagen img {
+    width: 200px;
+}
+
+.cursos-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.incluye-box,
+.info-box,
+.precio-box {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 12px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.modalidad-container {
+    background-color: white;
+}
+
+.modalidad-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 15px; } 
+
+.modalidad-content { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 40px; } 
+
+.modalidad-column { 
+    flex: 1;  } 
+
+.modalidad-column p { 
+    margin-bottom: 10px; 
+    color: #444; } 
+
+.modalidad-container h3, 
+.incluye-box h3, 
+.info-box h3, 
+.precio-box h3 { 
+    color: rgb(202, 23, 65); 
+    font-size: 30px; text-align: 
+    center; margin-bottom: 30px; }
+
+.incluye-box ul {
+    padding-left: 20px;
+}
+
+/* ===== Sección Iconos ===== */
+.icono-presencial,.icono-periodo ,.icono-pago,.icono-incluye {
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .cursos-container {
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: #f5f3ef;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+.comentario {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.estrellas {
+    color: #f4b400;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    max-width: 350px;
+    padding: 30px;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+}
+
+.testimonios {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.titulo-seccion {
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.usuario {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.usuario h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.usuario img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+}
+
+.usuario span {
+    color: #888;
+    font-size: 14px;
+}
